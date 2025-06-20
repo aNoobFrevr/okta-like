@@ -1,0 +1,17 @@
+{
+  "name": "okta-like",
+  "private": true,
+  "workspaces": [
+    "src/auth",
+    "src/api-gateway",
+    "src/users",
+    "src/shared",
+    "src/config",
+    "web-client"
+  ],
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "test": "jest",
+    "build": "echo 'Implement build scripts per package'"
+  }
+}
