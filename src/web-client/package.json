@@ -1,0 +1,16 @@
+{
+  "name": "@okta-like/web-client",
+  "main": "src/index.tsx",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "typescript": "^5.4.5",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "react-router-dom": "^7.6.2"
+  }
+}

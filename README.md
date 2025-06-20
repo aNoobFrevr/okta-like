@@ -1,3 +1,38 @@
+# Okta-like Platform
+
+## Setup
+
+```sh
+npm install
+npm run dev:all
+```
+
+## Service Startup
+
+- Auth: `npm run dev --workspace=src/auth`
+- API Gateway: `npm run dev --workspace=src/api-gateway`
+- Users: `npm run dev --workspace=src/users`
+- Web Client: `npm run dev --workspace=src/web-client`
+
+## Testing
+
+```sh
+npm test
+npm run lint
+```
+
+## Architecture Overview
+
+- src/auth: Authentication microservice (Node.js + Express)
+- src/api-gateway: API Gateway (Express + JWT validation)
+- src/users: User management microservice
+- src/web-client: React frontend
+- src/shared: Shared types, utils, middleware
+- src/config: Environment configs and constants
+
+## CI
+
+- Workflow: `.github/workflows/ci.yml` runs lint, build, and test on all workspaces.
 ## End-User Use Cases
 
 ### 1. Self-Service Registration

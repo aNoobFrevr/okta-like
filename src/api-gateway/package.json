@@ -1,0 +1,15 @@
+{
+  "name": "@okta-like/api-gateway",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node index.ts"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "http-proxy-middleware": "^3.0.5"
+  }
+}

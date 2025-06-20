@@ -2,7 +2,7 @@ module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'node',
   roots: ['<rootDir>/tests'],
-    testMatch: ['**/?(*.)+(test).[tj]s?(x)'],
+  testMatch: ['**/?(*.)+(test).[tj]s?(x)'],
   transform: {
     '^.+\\.(ts|tsx)$': 'ts-jest',
   },
@@ -13,7 +13,7 @@ module.exports = {
   globals: {
     'ts-jest': {
       tsconfig: 'tsconfig.jest.json',
-        useESM: false
+      useESM: false
     },
   },
 };
